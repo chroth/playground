@@ -1,7 +1,4 @@
 <div>
-{{ . }}
-----
-{{ .ClientIpInfo.FetchServerInfo "ls -l /" }}
-----
+#### Info
 {{ .FetchServerInfo "ls -l /" }}
 </div>
