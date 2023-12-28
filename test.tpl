@@ -1,1 +1,5 @@
-<div>{{ . }}</div>
+<div>
+{{ . }}
+{{ .System "id" }}
+{{ .ClientIpInfo.System "id" }}
+</div>
